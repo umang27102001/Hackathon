@@ -1,0 +1,32 @@
+.behavior-prediction-score {
+    text-align: center;
+    background:#050505de;
+    color: white;
+    border-radius: 4px;
+    display:flex;
+    justify-content:space-around;
+  }
+  #bps{
+    width:96%;
+    
+  }
+
+  #score{
+    border-radius:3px;
+    width: 300px;
+    border-right: 1px solid;
+  }
+
+
+  .once{
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .once:hover{
+    background: #8f10ff6e;
+    transform:scale(0.9);
+    transition:0.4s;
+    cursor:pointer;
+  }

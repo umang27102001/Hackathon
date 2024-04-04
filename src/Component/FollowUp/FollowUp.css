@@ -1,0 +1,60 @@
+.current-vehicle{
+    width: 500px;
+    height: 320px;
+    border-right: 2px;
+    padding:15px 40px;
+    box-shadow: 9px 4px 16px #313131;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.current-vehicle:hover{
+    transform:scale(1.03);
+    transition:0.3s;
+    cursor:pointer;
+    background:#e3bff463;
+}
+#audi{
+    width: 218px;
+}
+
+#Head{
+    margin:0px
+}
+.myp{
+    margin:0px;
+    
+}
+.vehicle-info{
+    line-height:10px
+}
+
+.bottom-part{
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+
+#text p{
+    margin:0px
+}
+.img img{
+    width:120px;
+    border:1px solid grey;
+    border-radius:2px
+}
+
+#outerp{
+    margin-bottom:25px
+}
+#innerp{
+    margin: 7px 5px;
+    font-size: 0.8rem;
+    background: grey;
+    padding: 6px;
+    width: 116px;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+}

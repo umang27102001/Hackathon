@@ -1,0 +1,13 @@
+#Navbar{
+    height: 70px;
+    align-items: center;
+    display: flex;
+    background: #650d8f;
+    margin-bottom:35px;
+}
+.mastermind{
+    margin-left: 20px;
+    font-size: 1.4rem;
+    color: white;
+    font-style: italic;
+}
