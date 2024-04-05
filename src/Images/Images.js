@@ -4,6 +4,7 @@ import ReplacementVehicle from "./ReplacementVehicle.png"
 import Faqs from "./faqs.png"
 import Talks from "./talks.png"
 import Summary from "./summary.png"
-import Stratey from "./Strategy.jpg"
-
-export default {UserIcon,CurrentVehicle,ReplacementVehicle,Faqs,Talks, Summary, Strategy}
+import Strategy from "./Strategy.jpg"
+import Discuss from "./Discuss.png"
+import User from "./User.png"
+export default {UserIcon,CurrentVehicle,ReplacementVehicle,Faqs,Talks, Summary, Strategy, Discuss, User}

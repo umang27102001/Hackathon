@@ -4,7 +4,7 @@ import Images from "../../Images/Images"
 function TalkinkPoints() {
   return (
    <div className="current-vehicle">
-        <div style={{display:"flex",justifyContent:"center", alignItems:'center'}}>
+        <div style={{display:"flex",justifyContent:"space-around", alignItems:'center'}}>
           <h2 id='Head'>Talking Points</h2><br />
           <img src={Images.Talks} style={{width:"72px"}} alt="" />
           </div>
