@@ -8,6 +8,7 @@
     background-color: #9f9f9f29;
     flex-direction: column;
     justify-content: center;
+    font-size:0.8rem;
 }
 .current-vehicle:hover{
     transform:scale(1.03);

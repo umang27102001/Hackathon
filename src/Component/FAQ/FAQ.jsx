@@ -3,7 +3,7 @@ import "./FAQ.css";
 import Images from "../../Images/Images";
 function FAQ() {
   return (
-    <div className="current-vehicle">
+    <div className="current-vehicle" id="Faq">
       <div style={{ display: "flex", justifyContent: "space-around" ,alignItems:"center"}}>
         <h2 id="Head">Frequently asked Questions</h2>
         <img src={Images.Faqs} style={{ width: "105px" }} alt="" />
