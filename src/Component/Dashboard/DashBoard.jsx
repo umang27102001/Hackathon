@@ -10,11 +10,12 @@ import Strategy from "../Strategy/Strategy";
 import FollowUp from "../FollowUp/FollowUp";
 function Dashboard() {
     const [card, setCard] = useState(0);
-    const Items =[<FAQ/>,<Summary/>,<TalkingPoints/>,<MissingDetails/>,<Strategy/>,<FollowUp/>]
+    const Items =[<Summary/>,<TalkingPoints/>,<Strategy/>,<MissingDetails/>,<FAQ/>]
     return (
       <div className="dashboard">
         <div className="CardContainer">
         <UserProfile setCard={setCard}/>
+        <FollowUp/>
         {Items.filter((e,i)=>i===card)}
         </div>
         <BehaviorPredictionScore setCard={setCard}/>

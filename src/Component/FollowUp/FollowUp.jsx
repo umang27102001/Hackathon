@@ -4,7 +4,7 @@ import Images from "../../Images/Images"
 function FollowUp() {
   return (
    <div className="current-vehicle">
-        <h2 id='Head'>Next followup timeline</h2>
+        <h2 id='Head'>Next followup timeline</h2><br />
         <div className="container">
             <img src={Images.ReplacementVehicle} id='audi' alt="" />
         </div>

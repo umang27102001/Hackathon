@@ -2,14 +2,14 @@ import React from 'react';
 import './MissingDetails.css';
 function MissingDetails() {
   return (
-   <div className="current-vehicle">
-        <h2 id='Head'>Things to discuss which were missing</h2>
-        <p className='myP'>Explore the customer's budget and financing options in more detail.
-</p>
-<p className='myP'>Discuss the specific features of the Audi that align with the customer's needs and preferences.
-</p>
-<p className='myP'>Provide information about the Audi's safety features, warranty, and maintenance costs.
-</p>
+   <div className="Missing">
+        <h2 id='Head'>Things to discuss</h2>
+        <p className='myPag'>Explore the customer's budget and financing options in more detail.
+</p><br />
+<p className='myPtag'>Discuss the specific features of the Audi that align with the customer's needs and preferences.
+</p><br />
+<p className='myPtag'>Provide information about the Audi's safety features, warranty, and maintenance costs.
+</p><br />
    </div>
   );
 }

@@ -15,11 +15,6 @@ const UserProfile = ({setCard}) => {
           <p> (507) 990-1141</p>
       </div>
       </div>
-        <div className="bottom" style={{fontSize:"0.8rem"}}>
-          <p>Profile</p>
-          <p>Notes</p>
-          <p style={{    lineHeight: "normal"}} onClick={FollowUpClick}>Next followup timeline</p>
-        </div>
     </div>
   )
 }
