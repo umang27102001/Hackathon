@@ -3,7 +3,7 @@
     height: 280px;
     border-right: 2px;
     box-shadow: 3px 3px 6px #5e328387;
-    background-color: white;
+    background-color: #9f9f9f29;
     display: flex;
     
     justify-content: center;
@@ -17,7 +17,7 @@
     transform:scale(1.03);
     transition:0.3s;
     cursor:pointer;
-    background:#e3bff463;
+
 }
 
 .info{
@@ -50,7 +50,7 @@
 }
 
 .bottom p:hover{
-    background:#933bbd;
+   
     color:white;
     cursor:pointer;
     transition:0.3s;

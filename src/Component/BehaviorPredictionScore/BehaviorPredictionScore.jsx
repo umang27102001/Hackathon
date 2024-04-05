@@ -24,10 +24,10 @@ function BehaviorPredictionScore({setCard}) {
         <p>Behavior Prediction Score</p>
         <p>100</p>
       </div>
-      <div id="summary" style={{width:"80px"}} onClick={SummaryClick} className='once'>
+      <div id="summary" style={{width:"105px"}} onClick={SummaryClick} className='once'>
         <p>Interaction Summary</p>
       </div>
-      <div id="Talk" style={{width:"130px"}} onClick={TalkClick} className='once'>
+      <div id="Talk" style={{width:"100px"}} onClick={TalkClick} className='once'>
         <p>Talking Points</p>
       </div>
       <div id="Strategy" onClick={StrategyClick} className='once'>

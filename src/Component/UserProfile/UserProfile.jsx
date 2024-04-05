@@ -8,8 +8,8 @@ const UserProfile = ({setCard}) => {
         <div className="avatar"><img src={image.User} style={{width:"100px"}} alt="" /></div>
         <div className="info">
           <p><b>Angela Tauscher</b></p>
-          <p><a href="" style={{textDecoration:"None", color:"#0088ff"}}>basset01@hotmail.com</a></p>
-          <p> (507) 990-1141</p>
+          <p><a href="" style={{textDecoration:"None", color:"#0088ff"}}>abcdxyz@hotmail.com</a></p>
+          <p> (xxx) xxx-1141</p>
       </div>
       </div>
     </div>

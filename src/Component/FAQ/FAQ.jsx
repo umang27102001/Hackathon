@@ -4,9 +4,8 @@ import Images from "../../Images/Images";
 function FAQ() {
   return (
     <div className="current-vehicle">
-      <div style={{ display: "flex", justifyContent: "space-around" }}>
+      <div style={{ display: "flex", justifyContent: "space-around" ,alignItems:"center"}}>
         <h2 id="Head">Frequently asked Questions</h2>
-        <br />
         <img src={Images.Faqs} style={{ width: "105px" }} alt="" />
       </div>
       <p className="myP">

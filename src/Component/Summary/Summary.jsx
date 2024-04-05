@@ -5,7 +5,7 @@ function Summary() {
   return (
     <div className="summaried">
       <div className="vehicle-info">
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <div style={{ display: "flex", justifyContent: "space-around", alignItems:"center" }}>
           <h2 id="outerp" style={{ color: "Black" }}>
             Interaction Summary
           </h2>

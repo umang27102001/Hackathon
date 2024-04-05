@@ -14,6 +14,7 @@
   #score{
     border-radius:3px;
     width: 300px;
+    font-size:0.7rem;
     border-right: 1px solid;
   }
 
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:0.7rem;
   }
   .once:hover{
     background: #8f10ff6e;

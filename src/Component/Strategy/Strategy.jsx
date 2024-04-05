@@ -4,7 +4,7 @@ import Images from "../../Images/Images"
 function Strategy() {
   return (
     <div className="current-vehicle">
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
+        <div style={{ display: "flex", justifyContent: "space-around", alignItems:"center" }}>
         <h2 id='Head'>Strategies to Improve Probability of Sale</h2><br />
         <br />
         <img src={Images.Strategy} style={{ width: "105px" }} alt="" />
